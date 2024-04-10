@@ -7,26 +7,7 @@ local LocalPlayer = game:GetService("Players").LocalPlayer
 local Mouse = LocalPlayer:GetMouse()
 local HttpService = game:GetService("HttpService")
 
-local OrionLib = {
-	Elements = {},
-	ThemeObjects = {},
-	Connections = {},
-	Flags = {},
-	Themes = {
-		Default = {
-			Main = Color3.fromRGB(25, 25, 25), -- Gris foncé
-Second = Color3.fromRGB(32, 32, 32), -- Gris foncé
-Stroke = Color3.fromRGB(60, 60, 60), -- Gris moyen
-Divider = Color3.fromRGB(60, 60, 60), -- Gris moyen
-Text = Color3.fromRGB(148, 0, 211), -- Violet
-TextDark = Color3.fromRGB(94, 0, 135) -- Violet plus foncé
 
-		}
-	},
-	SelectedTheme = "Default",
-	Folder = nil,
-	SaveCfg = false
-}
 
 --Feather Icons https://github.com/evoincorp/lucideblox/tree/master/src/modules/util - Created by 7kayoh
 local Icons = {}
